@@ -1,0 +1,207 @@
+body {
+    background-color: #252531;
+    font-family: "Montserrat", sans-serif;
+    color: #dddddd;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500, medium;
+    font-size: 1rem;
+    color: #92919d;
+}
+
+li {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500, medium;
+    font-size: 1rem;
+    color: #92919d;
+}
+
+
+/* NAVBAR */
+
+.navbar {
+    background-color: #252531;
+    padding: 1% 5%;
+}
+
+.navbar-brand img {
+    width: 50%;
+}
+
+.nav-link {
+    color: #dddddd;
+}
+
+.nav-link:hover {
+    color: #ffffff;
+}
+
+.navbar-toggler-icon {
+    color: white;
+}
+
+
+/* SECÃO CHAMADA */
+
+.main-banner {
+    margin-bottom: 10%;
+}
+
+.chamada h1 {
+    font-size: 3rem;
+}
+
+.chamada p {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.espaco {
+    margin: 15px;
+}
+
+
+/* SEÇÃO DOS CARDS */
+
+.cards {
+    padding-top: 5%;
+}
+
+.cards .col-lg-3 {
+    padding: 0;
+}
+
+.card {
+    background-color: #252531;
+    width: 18rem;
+    margin: auto;
+    border: none;
+}
+
+.card .card-img-top {
+    width: 30%;
+    margin: auto;
+    margin-bottom: 5%;
+}
+
+.card .card-title {
+    font-size: 1.5rem;
+    margin-top: 5%;
+}
+
+.card .card-body {
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+
+/* BANNER DO MEIO */
+
+.imagem-banner-middle {
+    overflow: hidden;
+    width: 90%;
+}
+
+
+/* CALL TO ACTION COM O BOTAO DE DOWNLOAD NO FINAL DA PAGINA */
+
+.call-to-action-bottom {
+    background: linear-gradient(86.08deg, #ecaa80 0%, #725de5 100%);
+    padding-top: 10%;
+}
+
+.imagem-call-to-action {
+    margin-bottom: -1%;
+}
+
+
+/* TODO - Ver porque o font-weight não tá pegando */
+
+.call-to-action-bottom p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500, medium;
+    font-size: 1rem;
+    color: #cbcbcb;
+}
+
+#button {
+    background-color: #725de5;
+    border: none;
+    margin: 1%;
+}
+
+#button-other {
+    background-color: #45415a;
+    border: none;
+}
+
+#button-another {
+    background-color: #dddddd;
+    color: #252531;
+    border: none;
+}
+
+#background-celular {
+    width: 100%;
+    height: auto;
+}
+
+
+/* FOOTER */
+
+.footer {
+    padding: 4% 0%;
+}
+
+.contato {
+    display: inline-flex;
+    list-style: none;
+    padding-left: 0px;
+}
+
+.contato li {
+    white-space: nowrap;
+}
+
+.list-group-item {
+    background-color: #252531;
+    border: none;
+    padding-left: 0%;
+}
+
+.imagem-logo-footer {
+    width: 72%;
+    position: relative;
+    right: 50%;
+    bottom: 3em;
+    
+}
+.informacoes-footer p{
+    position: relative;
+    right: 50%;
+    bottom: 3em;
+    padding-top: 3%;
+
+}
+.icones-footer {
+    border-radius: 50%;
+    background-color: #725de5;
+    padding: 2%;
+    overflow: hidden;
+    position: relative;
+    right: 50%;
+    bottom: 3em;
+}
+
+#icones{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
